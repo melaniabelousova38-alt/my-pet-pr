@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій домашній улюбленець</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef3f8;
+      color: #1f2937;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #1d3557;
+      margin-bottom: 24px;
+    }
+    .box {
+      max-width: 720px;
+      margin: 0 auto 24px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+    video {
+      width: 100%;
+      border-radius: 10px;
+      background: #000000;
+    }
+    .back {
+      display: inline-block;
+      padding: 10px 18px;
+      background-color: #1d3557;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Мій домашній улюбленець</h1>
+
+  <div class="box">
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      Ваш браузер не підтримує відео.
+    </video>
+  </div>
+
+  <a class="back" href="index.html">Назад до Медіатеки</a>
+
+</body>
+</html>
